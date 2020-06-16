@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-from socketIO_client import SocketIO, LoggingNamespace
+#from socketIO_client import SocketIO, LoggingNamespace
 from RPi import GPIO
 from time import sleep
 import os

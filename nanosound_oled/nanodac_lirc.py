@@ -41,7 +41,7 @@ def toggle():
 
 
 def songprev():
-    os.system('mpc previous')
+    os.system('mpc prev')
 
 
 def songnext():
