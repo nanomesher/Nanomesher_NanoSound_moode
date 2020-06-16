@@ -4,18 +4,14 @@
 from socketIO_client import SocketIO, LoggingNamespace
 from RPi import GPIO
 from time import sleep
-
+import os
 
 def volup():
-    # urllib2.urlopen('http://127.0.0.1:3000/api/v1/commands/?cmd=volume&value=mute')
-    with SocketIO('127.0.0.1', 3000, LoggingNamespace) as socketIO:
-        socketIO.emit('volume', '+')
+    os.system('/var/www/vol.sh up 5')
 
 
 def voldown():
-    # urllib2.urlopen('http://127.0.0.1:3000/api/v1/commands/?cmd=volume&value=unmute')
-    with SocketIO('127.0.0.1', 3000, LoggingNamespace) as socketIO:
-        socketIO.emit('volume', '-')
+    os.system('/var/www/vol.sh dn 5')
 
 
 clk = 22

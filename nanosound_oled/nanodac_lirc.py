@@ -2,10 +2,10 @@
 from __future__ import unicode_literals
 
 PYTHONIOENCODING = "UTF-8"
-from socketIO_client import SocketIO, LoggingNamespace
+#from socketIO_client import SocketIO, LoggingNamespace
 from time import time
 import RPi.GPIO as GPIO
-import urllib2
+#import urllib2
 import json
 import ConfigParser
 import os
@@ -136,31 +136,34 @@ RANDOM_BUTTON = config.get('Default','RANDOM_BUTTON')
 REPEAT_BUTTON = config.get('Default','REPEAT_BUTTON')
 STOP_BUTTON = config.get('Default','STOP_BUTTON')
 
-volstatus = json.load(urllib2.urlopen('http://127.0.0.1:3000/api/v1/getstate'))
+repeated = False
+randomed = False
+muted = False
+randomed = False
 
-if ('repeat' in volstatus):
-    if (volstatus['repeat']):
-        repeated = True
-    else:
-        repeated = False
-else:
-    repeated = False
+# if ('repeat' in volstatus):
+#     if (volstatus['repeat']):
+#         repeated = True
+#     else:
+#         repeated = False
+# else:
+#     repeated = False
 
-if ('random' in volstatus):
-    if (volstatus['random']):
-        randomed = True
-    else:
-        randomed = False
-else:
-    randomed = False
+# if ('random' in volstatus):
+#     if (volstatus['random']):
+#         randomed = True
+#     else:
+#         randomed = False
+# else:
+#     randomed = False
 
-if ('mute' in volstatus):
-    if (volstatus['mute']):
-        muted = True
-    else:
-        muted = False
-else:
-    muted = False
+# if ('mute' in volstatus):
+#     if (volstatus['mute']):
+#         muted = True
+#     else:
+#         muted = False
+# else:
+#     muted = False
 
 if __name__ == "__main__":
     setup()
