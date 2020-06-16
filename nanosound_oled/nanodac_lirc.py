@@ -120,8 +120,8 @@ repeated = False  # 0-no repeat , 1-repeat one, 2-repeat
 
 config = ConfigParser.ConfigParser()
 
-if(os.path.isfile('/home/volumio/nanosound_keys.ini')):
-    config.read('/home/volumio/nanosound_keys.ini')
+if(os.path.isfile('/home/pi/nanosound_keys.ini')):
+    config.read('/home/pi/nanosound_keys.ini')
 else:
     config.read('/home/volumio/nanosound_oled/conf/nanosound_keys.ini')
 MUTE_BUTTON = config.get('Default','MUTE_BUTTON')
