@@ -4,6 +4,7 @@ from __future__ import unicode_literals
 PYTHONIOENCODING = "UTF-8"
 #from socketIO_client import SocketIO, LoggingNamespace
 from time import time
+from mpd import MPDClient
 import RPi.GPIO as GPIO
 #import urllib2
 import json
@@ -112,6 +113,39 @@ def on_ir_receive(pinNo, bouncetime=150):
 def destroy():
     GPIO.cleanup()
 
+def RefreshStat():
+    global muted, randomed, repeated
+    client = MPDClient() 
+    client.connect("localhost", 6600)
+
+    volstatus = client.status()
+
+    if ('repeat' in volstatus):
+        if (volstatus['repeat']=="1"):
+            repeated = True
+        else:
+            repeated = False
+    else:
+        repeated = False
+
+    if ('random' in volstatus):
+        if (volstatus['random']=="1"):
+            randomed = True
+        else:
+            randomed = False
+    else:
+        randomed = False
+
+    if ('volume' in volstatus):
+        if (volstatus['volume']=="0"):
+            muted = True
+        else:
+            muted = False
+    else:
+        muted = False
+
+    client.close()
+    
 
 muted = False
 randomed = False
@@ -123,7 +157,7 @@ config = ConfigParser.ConfigParser()
 if(os.path.isfile('/home/pi/nanosound_keys.ini')):
     config.read('/home/pi/nanosound_keys.ini')
 else:
-    config.read('/home/volumio/nanosound_oled/conf/nanosound_keys.ini')
+    config.read('/home/pi/Nanomesher_NanoSound_moode/nanosound_oled/conf/nanosound_keys.ini')
 MUTE_BUTTON = config.get('Default','MUTE_BUTTON')
 PREV_BUTTON = config.get('Default','PREV_BUTTON')
 NEXT_BUTTON = config.get('Default','NEXT_BUTTON')
@@ -136,34 +170,9 @@ RANDOM_BUTTON = config.get('Default','RANDOM_BUTTON')
 REPEAT_BUTTON = config.get('Default','REPEAT_BUTTON')
 STOP_BUTTON = config.get('Default','STOP_BUTTON')
 
-repeated = False
-randomed = False
-muted = False
-randomed = False
 
-# if ('repeat' in volstatus):
-#     if (volstatus['repeat']):
-#         repeated = True
-#     else:
-#         repeated = False
-# else:
-#     repeated = False
 
-# if ('random' in volstatus):
-#     if (volstatus['random']):
-#         randomed = True
-#     else:
-#         randomed = False
-# else:
-#     randomed = False
-
-# if ('mute' in volstatus):
-#     if (volstatus['mute']):
-#         muted = True
-#     else:
-#         muted = False
-# else:
-#     muted = False
+RefreshStat()
 
 if __name__ == "__main__":
     setup()
@@ -176,6 +185,7 @@ if __name__ == "__main__":
         code = on_ir_receive(11)
         if code:
             hexcode = str(hex(code))
+            RefreshStat()
             if (hexcode == MUTE_BUTTON) and (not muted):
                 muted = True
                 mute()
