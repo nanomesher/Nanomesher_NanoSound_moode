@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2e1a33c8-5c4b-470e-84b0-34aaece7452b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/nanomesher_piswitch.service" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanosound_kodioled.service" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanosound_oled.service" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanosound_oled/RunAmpPower" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanosound_oled/RunNanoDac" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanosound_oled/amp_power.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanosound_oled/conf/nanosound_keys.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanosound_oled/fonts/DejaVuSansMono-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanosound_oled/fonts/DejaVuSansMono.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanosound_oled/fonts/creep.bdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanosound_oled/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanosound_oled/fonts/simhei.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanosound_oled/logo/nanosound_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanosound_oled/logo/nanosoundcd_black.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanosound_oled/logo/splash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanosound_oled/logo/v_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanosound_oled/nanodac_lirc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanosound_oled/nanodac_oled.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanosound_oled/nanodac_rotary.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanosound_oled/nanosoundcd_status.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanosound_oled/oled/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanosound_oled/oled/device.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanosound_oled/oled/render.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanosound_oled/ssd1351.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanosound_rotary.service" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/nanosound_moode/nanodac_lirc.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1377" />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="802" />
+    <option name="y" value="129" />
+    <option name="width" value="1440" />
+    <option name="height" value="780" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Nanomesher_NanoSound_moode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Nanomesher_NanoSound_moode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Nanomesher_NanoSound_moode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Nanomesher_NanoSound_moode" type="462c0819:PsiDirectoryNode" />
+              <item name="nanosound_moode" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Course" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="802" y="129" width="1440" height="780" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/nanosound_oled.service">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nanosound_oled/nanodac_lirc.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nanosound_lirc.service">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nanosound_moode/nanodac_lirc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1377" />
+      </provider>
+    </entry>
+  </component>
+</project>
