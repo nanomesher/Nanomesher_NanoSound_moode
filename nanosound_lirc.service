@@ -2,7 +2,7 @@
 Description=NanoSound LIRC Service
 
 [Service]
-ExecStart=/home/volumio/nanosound_oled/nanodac_lirc.py
+ExecStart=/home/pi/Nanomesher_NanoSound_moode/nanosound_moode/nanodac_lirc.py
 StandardOutput=null
 
 [Install]

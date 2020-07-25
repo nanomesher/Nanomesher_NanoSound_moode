@@ -180,7 +180,7 @@ if __name__ == "__main__":
     print("Starting IR Listener")
     while True:
 
-        print("Waiting for signal")
+        #print("Waiting for signal")
         GPIO.wait_for_edge(11, GPIO.FALLING)
         code = on_ir_receive(11)
         if code:
