@@ -2,31 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e1a33c8-5c4b-470e-84b0-34aaece7452b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/nanomesher_piswitch.service" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nanosound_kodioled.service" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nanosound_oled.service" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nanosound_oled/RunAmpPower" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nanosound_oled/RunNanoDac" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nanosound_oled/amp_power.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nanosound_oled/conf/nanosound_keys.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nanosound_oled/fonts/DejaVuSansMono-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nanosound_oled/fonts/DejaVuSansMono.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nanosound_oled/fonts/creep.bdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nanosound_oled/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nanosound_oled/fonts/simhei.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nanosound_oled/logo/nanosound_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nanosound_oled/logo/nanosoundcd_black.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nanosound_oled/logo/splash.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nanosound_oled/logo/v_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nanosound_oled/nanodac_lirc.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nanosound_oled/nanodac_oled.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nanosound_oled/nanodac_rotary.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nanosound_oled/nanosoundcd_status.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nanosound_oled/oled/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nanosound_oled/oled/device.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nanosound_oled/oled/render.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nanosound_oled/ssd1351.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nanosound_rotary.service" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/nanosound_moode/irtest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanosound_moode/nanodac_lirc.py" beforeDir="false" afterPath="$PROJECT_DIR$/nanosound_moode/nanodac_lirc.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,10 +14,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nanosound_moode/nanodac_lirc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1377" />
+            <state relative-caret-position="731">
+              <caret line="184" column="32" lean-forward="true" selection-start-line="183" selection-start-column="8" selection-end-line="184" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nanosound_moode/conf/nanosound_keys.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/nanosound_moode/irtest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
@@ -48,9 +49,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="802" />
-    <option name="y" value="129" />
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/nanosound_moode/nanodac_lirc.py" />
+        <option value="$PROJECT_DIR$/nanosound_moode/irtest.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="26" />
     <option name="width" value="1440" />
     <option name="height" value="780" />
   </component>
@@ -71,6 +80,12 @@
               <item name="Nanomesher_NanoSound_moode" type="462c0819:PsiDirectoryNode" />
               <item name="nanosound_moode" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Nanomesher_NanoSound_moode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Nanomesher_NanoSound_moode" type="462c0819:PsiDirectoryNode" />
+              <item name="nanosound_moode" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -79,6 +94,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -97,10 +113,10 @@
     <configuration />
   </component>
   <component name="ToolWindowManager">
-    <frame x="802" y="129" width="1440" height="780" extended-state="0" />
+    <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13801262" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -131,7 +147,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/nanosound_moode/nanodac_lirc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1377" />
+        <state relative-caret-position="731">
+          <caret line="184" column="32" lean-forward="true" selection-start-line="183" selection-start-column="8" selection-end-line="184" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nanosound_moode/conf/nanosound_keys.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nanosound_moode/irtest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>
