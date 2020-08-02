@@ -1,8 +1,9 @@
 [Unit]
-Description=NanoSound LIRC Service
+Description=NanoSound One Infrared Service
 
 [Service]
-ExecStart=/home/pi/Nanomesher_NanoSound_moode/nanosound_moode/nanodac_lirc.py
+ExecStart=/home/pi/Nanomesher_NanoSound_moode/nanosound_moode/nanodac_lirc
+WorkingDirectory=/home/pi/Nanomesher_NanoSound_moode/nanosound_moode
 StandardOutput=null
 
 [Install]
