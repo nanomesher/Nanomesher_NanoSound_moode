@@ -159,7 +159,8 @@ config = ConfigParser.ConfigParser()
 if(os.path.isfile('/home/pi/nanosound_keys.ini')):
     config.read('/home/pi/nanosound_keys.ini')
 else:
-    config.read('/home/pi/Nanomesher_NanoSound_moode/nanosound_oled/conf/nanosound_keys.ini')
+    config.read('/home/pi/Nanomesher_NanoSound_moode/nanosound_moode/conf/nanosound_keys.ini')
+
 MUTE_BUTTON = config.get('Default','MUTE_BUTTON')
 PREV_BUTTON = config.get('Default','PREV_BUTTON')
 NEXT_BUTTON = config.get('Default','NEXT_BUTTON')
