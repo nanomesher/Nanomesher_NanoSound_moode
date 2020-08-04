@@ -1,11 +1,14 @@
 [Unit]
 Description=NanoSound One Infrared Service
+After=mpd
 
 [Service]
-ExecStart=/home/pi/Nanomesher_NanoSound_moode/nanosound_moode/nanodac_lirc
-WorkingDirectory=/home/pi/Nanomesher_NanoSound_moode/nanosound_moode
+ExecStartPre=/bin/sleep 30
+ExecStart=/home/pi/Nanomesher_NanoSound_moode/nanosound_moode/nanodac_lirc.py
 StandardOutput=null
 
 [Install]
 WantedBy=multi-user.target
 Alias=nanosound_lirc.service
+
+
