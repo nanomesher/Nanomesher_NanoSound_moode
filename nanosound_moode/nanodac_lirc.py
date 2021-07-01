@@ -116,38 +116,40 @@ def destroy():
     GPIO.cleanup()
 
 def RefreshStat():
-    global muted, randomed, repeated
-    client = MPDClient() 
-    client.connect("localhost", 6600)
+    try:
+        global muted, randomed, repeated
+        client = MPDClient()
+        client.connect("localhost", 6600)
 
-    volstatus = client.status()
+        volstatus = client.status()
 
-    if ('repeat' in volstatus):
-        if (volstatus['repeat']=="1"):
-            repeated = True
+        if ('repeat' in volstatus):
+            if (volstatus['repeat']=="1"):
+                repeated = True
+            else:
+                repeated = False
         else:
             repeated = False
-    else:
-        repeated = False
 
-    if ('random' in volstatus):
-        if (volstatus['random']=="1"):
-            randomed = True
+        if ('random' in volstatus):
+            if (volstatus['random']=="1"):
+                randomed = True
+            else:
+                randomed = False
         else:
             randomed = False
-    else:
-        randomed = False
 
-    if ('volume' in volstatus):
-        if (volstatus['volume']=="0"):
-            muted = True
+        if ('volume' in volstatus):
+            if (volstatus['volume']=="0"):
+                muted = True
+            else:
+                muted = False
         else:
             muted = False
-    else:
-        muted = False
 
-    client.close()
-    
+        client.close()
+    except:
+        pass
 
 muted = False
 randomed = False
